@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cbreplicate", "cbreplicate.csproj", "{41F33459-FAB7-41CA-9F07-98FBD8A6933C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Couchbase.Lite.Net45", "..\..\couchbase-lite-net\src\Couchbase.Lite.Net45\Couchbase.Lite.Net45.csproj", "{C87E0C01-AAD6-46DA-9935-C772C112BB18}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Couchbase.Lite.Shared", "..\..\couchbase-lite-net\src\Couchbase.Lite.Shared\Couchbase.Lite.Shared.shproj", "{0A88C2A7-7AD8-46F9-9D31-869E3466B791}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41F33459-FAB7-41CA-9F07-98FBD8A6933C}.Debug|x64.ActiveCfg = Debug|x86
+		{41F33459-FAB7-41CA-9F07-98FBD8A6933C}.Debug|x64.Build.0 = Debug|x86
+		{41F33459-FAB7-41CA-9F07-98FBD8A6933C}.Debug|x86.ActiveCfg = Debug|x86
+		{41F33459-FAB7-41CA-9F07-98FBD8A6933C}.Debug|x86.Build.0 = Debug|x86
+		{41F33459-FAB7-41CA-9F07-98FBD8A6933C}.Release|x64.ActiveCfg = Release|x86
+		{41F33459-FAB7-41CA-9F07-98FBD8A6933C}.Release|x64.Build.0 = Release|x86
+		{41F33459-FAB7-41CA-9F07-98FBD8A6933C}.Release|x86.ActiveCfg = Release|x86
+		{41F33459-FAB7-41CA-9F07-98FBD8A6933C}.Release|x86.Build.0 = Release|x86
+		{C87E0C01-AAD6-46DA-9935-C772C112BB18}.Debug|x64.ActiveCfg = Debug|x64
+		{C87E0C01-AAD6-46DA-9935-C772C112BB18}.Debug|x64.Build.0 = Debug|x64
+		{C87E0C01-AAD6-46DA-9935-C772C112BB18}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C87E0C01-AAD6-46DA-9935-C772C112BB18}.Debug|x86.Build.0 = Debug|Any CPU
+		{C87E0C01-AAD6-46DA-9935-C772C112BB18}.Release|x64.ActiveCfg = Release|x64
+		{C87E0C01-AAD6-46DA-9935-C772C112BB18}.Release|x64.Build.0 = Release|x64
+		{C87E0C01-AAD6-46DA-9935-C772C112BB18}.Release|x86.ActiveCfg = Release|Any CPU
+		{C87E0C01-AAD6-46DA-9935-C772C112BB18}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
