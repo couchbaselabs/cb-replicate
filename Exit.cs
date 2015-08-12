@@ -8,8 +8,15 @@ using System.Text;
 
 namespace cbreplicate
 {
-	public class Exit
+	public enum Exit
 	{
-	}
-
+        UnhandledException = -1000,
+        CannotOpenDatabase = -6,
+        PushReplicationError = -5,
+        PullReplicationError = -4,
+        InvalidOptions = -3,
+        PathIsNullOrEmpty = -2,
+        PathDoesNotExist = -1,
+        Success = 0
+    }
 }
