@@ -63,7 +63,7 @@ namespace cbreplicate
             }
 
             if (_showHelp || args.Length == 0) {
-                var writer = new StringWriter(new StringBuilder("cb-replicate usage:" + Environment.NewLine + Environment.NewLine));
+                var writer = new StringWriter(new StringBuilder("usage: cb-replicate [options] [file path]" + Environment.NewLine + Environment.NewLine));
                 options.WriteOptionDescriptions(writer);
 
                 _helpText = writer.ToString();
